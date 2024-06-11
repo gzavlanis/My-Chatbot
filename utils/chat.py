@@ -10,7 +10,7 @@ from colorama import Fore, Style, Back
 import random
 import pickle
 
-with open("data/intents.json") as file:
+with open("../data/intents.json") as file:
     data = json.load(file)
 
 def chat():
