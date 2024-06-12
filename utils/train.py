@@ -56,7 +56,7 @@ model.compile(loss = 'sparse_categorical_crossentropy', optimizer = 'adam', metr
 
 model.summary()
 
-epochs = 600
+epochs = 800
 history = model.fit(padded_sequences, np.array(training_labels), epochs = epochs)
 loss = history.history['loss']
 accuracy = history.history['accuracy']
