@@ -5,12 +5,12 @@ from flask import Flask, request
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 
-model = load_model('../chatbot.keras') # load the trained model
+model = load_model('../utils/chatbot.keras') # load the trained model
 
-with open('../tokenizer.pickle', 'rb') as handle: # load tokenizer object
+with open('../utils/tokenizer.pickle', 'rb') as handle: # load tokenizer object
     tokenizer = pickle.load(handle)
 
-with open('../label_encoder.pickle', 'rb') as enc: # load the label encoder object
+with open('../utils/label_encoder.pickle', 'rb') as enc: # load the label encoder object
     lbl_encoder = pickle.load(enc)
 
 with open("../data/intents.json") as file:
