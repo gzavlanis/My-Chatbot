@@ -3,5 +3,12 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.11" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (My Chatbot)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
+>>>>>>> 548cfbb953728ac980ccd5912d17de40ab831c02
 </project>
